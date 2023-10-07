@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/membro.css">
+</head>
+<body>
+
+    <div class="form-container">
+
+ 	
+        <form action="#" method="post">
+        <div class="top">
+        	<h1>Envie seu trabalho para a <span>ArteLibre</span>. (opcional)</h1>
+        	<p>Envie sua arte através do formulário abaixo e seja parte da nossa missão de promover e celebrar as expressões artísticas não convencionais. Se surgir algum desafio ou se você tiver informações específicas para adicionar à sua obra, nossa equipe está pronta para ajudar. </p>
+        </div>
+
+
+            <label for="arte_arquivo">Carregar uma arte (máx. 5MB):</label>
+            <input type="file" accept="image/*, video/*, audio/*, text/*, .html">
+
+            <label for="nome_arte">Nome do trabalho artístico:</label>
+            <input type="text" placeholder="Insira o nome da obra de arte" >
+
+            <label for="artista_name">Nome do artista:</label>
+            <input type="text" placeholder="Insira o nome do artista">
+
+            <label for="tipo_arte">Tipo de obra:</label>
+            <select>
+                <option value="">Selecione...</option>
+                <option value="Moda">Moda</option>
+                <option value="Pesquisa">Pesquisa / Publicação</option>
+                <option value="Escultura">Gravura</option>
+                <option value="Escultura">Escultura</option>
+                <option value="Escultura">Arquitetura</option>
+                <option value="Pesquisa">Arte Digital</option>
+                <option value="Escultura">Visual / Pintura / Desenho</option>
+                <option value="Escultura">Arte sonora / Música</option>
+                <option value="Escultura">Têxteis</option>
+            </select>
+
+            <label for="material">Material (opcional):</label>
+            <input type="text" placeholder="Insira o material da obra de arte">
+           
+            <label for="tamanho">Tamanho (opcional):</label>
+            <input type="text" placeholder="Insira o tamanho da obra de arte">
+            
+            <label for="ano">Ano:</label>
+            <input type="date">
+
+            <label for="description">Descrição:</label>
+            <textarea name="description" id="description" rows="3" placeholder="Descreva a obra de arte"></textarea>
+
+        <br>
+        <a href="../index.html" class="btn">Cadastrar</a>
+        <a href="#membro"><button type="reset" class="btn">Limpar</button></a>
+        <a href="membro.html" class="btn-index">Voltar à Página de Cadastro do artista</a>
+        </form>
+    </div>
+</body>
+</html>

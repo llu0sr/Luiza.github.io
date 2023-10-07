@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonia de Cores</title>
+    	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- boxicon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Css -->
+    <link rel="stylesheet" href="../css/lojaonline.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/produto.css">
+</head>
+  
+</head>
+<body>
+    <header>
+        <header>
+            <div id="header">
+                <div class="fa-solid fa-bars" id="navbar-icon"></div>
+                <div class="logo-header">
+                    <img src="../image/lu.png" alt="Logo da ArtLivre">
+                </div>
+                <ul class="navbar-header">
+                    <li><a href="../index.html">ArtLivre</a></li>
+                    <li><a href="lojaonline.html">Galeria</a></li>
+                    <li><a href="artlibre.html">Sobre Nós</a></li>
+                    <li><a href="membro.html">Seja Membro</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>    
+                <div class="carrinho">
+                    <a href="carrinho.html"><i class='bx bx-cart'></i></a>
+                    <a href="login.html"><i class='bx bx-user'></i></a>
+                </div>
+            </div>
+        </header>
+    </header>
+
+    <main>
+        <div class="product-details">
+            <div class="product-image">
+                <img src="../image/1.jpg" alt="Harmonia de Cores">
+            </div>
+            <div class="product-info">
+                <h1>Harmonia de Cores</h1>
+                <p><strong>Preço: R$ 250,00</strong></p>
+                <p>Tamanho: <select name="tamanho">
+                    <option value="pequeno">Pequeno</option>
+                    <option value="médio">Médio</option>
+                    <option value="grande">Grande</option>
+                </select></p>
+                <p>Cálculo de Frete: <input type="text" name="frete" placeholder="Digite seu CEP"></p>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+                <button class="add-to-cart">Compre Já</button>
+            </div>
+        </div>
+    </main>
+
+    <section class="social-newsletter">
+        <div class="social">
+            <p>Siga a gente:</p>
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-pinterest'></i></a>
+        </div>
+        <div class="newsletter">
+            <p>Assine a nossa newsletter e seja o primeiro a saber sobre promoções exclusivas e novidades.</p>
+            <form>
+                <input type="email" placeholder="Seu e-mail">
+                <button type="submit">Assinar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="licenses">
+                <p>&copy; 2023 Loja Online. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- js -->
+	<script type="text/javascript" src="../java/script.js"></script>
+</body>
+</html>

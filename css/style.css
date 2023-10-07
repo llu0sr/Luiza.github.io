@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+	box-sizing: border-box;
+}
+body{
+    max-width: auto;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 15px;
+    background-image: url(../image/art.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.menu{
+    margin-top: 50px;
+    margin-left: 76px;
+    list-style: none;
+    background-color: #b993bf;
+    border-radius: 50px;
+    float: left;
+    font-weight: bold;
+}
+.menu li{
+    position: relative;
+    float: left;
+}
+.menu li a{
+    color: #f5f0f6;
+    text-decoration: none; 
+    padding: 5px 10px;
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu li a:hover{
+    background:#7f5d86;
+    color:#f5f0f6;
+    border-radius: 50px;
+}
+.menu li ul{
+    position:absolute;
+    top:27px;
+    left:0;
+    background-color:#b993bf;
+    display:none;
+}
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+    border-radius: 50px;
+}
+.menu li ul li{
+    
+    display:block;
+    width:150px;
+}
+.top{
+    padding: 150px 800px 10px 80px;
+}
+h1{
+    color:#7f5d86;
+    font-size:x-large ;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+hr{
+    margin: 4px 0px 20px 76px;
+    max-width: 501px;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:x-large;
+    font-size: 15px;
+    line-height: 20px;
+}
+span{
+    color: #b993bf;
+    font-weight: 800;
+}
+footer {
+    text-align: center; 
+    background-color: #b993bf;
+    color: #f5f0f6;
+    bottom: 0; 
+    position: absolute;
+    width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    body{
+        background-image: none
+
+    }
+    .menu{
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 70px;
+        list-style:none;
+        background-color: #b993bf00;
+        border-radius: 50px;
+        float: none;
+        font-weight: bold;
+    }
+    .menu li{
+        position: none;
+        float:none;
+    }
+    .menu li a{
+        color: #f5f0f6;
+        text-decoration:none; 
+        background-color: #b993bf;
+        border-radius: 50px;
+        margin: 2px;
+        padding:5px 10px;
+        display:block;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .menu li a:hover{
+        background:#7f5d86;
+        color:#f5f0f6;
+        border-radius: 50px;
+    }
+    .menu li ul{
+        position:absolute;
+        top:27px;
+        left:0;
+        background-color:#b993bf;
+        display:none;
+    }
+    .menu li:hover ul, .menu li.over ul{
+        display:block;
+        border-radius: 50px;
+    }
+    .top{
+        padding: 30px;
+    }
+    h1{
+        color:#7f5d86;
+        font-size:x-large ;
+        font-size: 35px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+    hr{
+        margin: 15px;
+        max-width: 501px;
+    }
+    p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:x-large;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    span{
+        color: #b993bf;
+        font-weight: 800;
+    }
+
+    footer {
+        font-size: 13px;
+        position: fixed;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .top{
+        padding: 50px 30% 10px 50px;
+    }
+    .menu{
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    h1{
+        color:#7f5d86;
+        font-size:x-large ;
+        font-size: 35px;
+        line-height: 30px;
+    }
+    footer {
+        font-size: 13px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+    }
+}
+
+/* Regras de mídia para telas grandes (acima de 768px) */
+@media screen and (min-width: 769px) and (max-width: 1163px)  {
+    .top {
+        padding: 80px 55% 40px 50px;
+    }
+
+    .menu {
+        margin-left: 50px;
+    }
+}

@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+	box-sizing: border-box;
+}
+body{
+    background-color: #7f5d8683;
+}
+/* Estilos para a seção de contato */
+.login{
+    padding: 35px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 8.5%;
+}
+.login h1 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.login-content{
+    background-color: #ffffff;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start; 
+    border-radius: 10px;
+}
+
+/* Estilos para o formulário de contato */
+.login-form {
+    background-color: #b993bf;
+    padding: 40px;
+    flex: 1;
+    max-width: 500px;
+    width: 100%;
+}
+
+.login-form h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.login-form input[type="password"],
+.login-form input[type="email"],
+.login-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #b993bf;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+}
+
+.login-form textarea {
+    resize: vertical;
+}
+.login-form button {
+    background-color: #7f5d86;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    margin: 20px 0px;
+    font-size: 20px;
+}
+.login-form button:hover {
+    background-color: #644969;
+
+}
+.login-content p{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+.login-content a{
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+/* Estilos para a seção de localização */
+.login-location {
+    padding: 40px;
+    flex: 1;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+.login-location img{
+    width: 95%;
+}
+footer {
+    background-color:  #7f5d86;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .login-content {
+        display: block;
+    }
+}

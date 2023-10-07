@@ -1,0 +1,98 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 900px;
+    margin: 150px auto 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.product-image {
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-info {
+    flex: 2;
+}
+
+.product-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.product-info strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.product-info select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.product-info input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.add-to-cart, .buy-now {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover, .buy-now:hover {
+    background-color: #555;
+}
+
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    .product-details {
+        flex-direction: column;
+    }
+    
+    .product-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .product-info select,
+    .product-info input[type="text"] {
+        width: 100%;
+    }
+}

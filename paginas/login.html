@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>    
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- boxicon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+</head>
+<body>
+    <header>
+		<div id="header">
+			<div class="fa-solid fa-bars" id="navbar-icon"></div>
+			<div class="logo-header">
+				<img src="../image/lu.png" alt="Logo da ArtLivre">
+			</div>
+			<ul class="navbar-header">
+				<li><a href="../index.html">ArtLivre</a></li>
+				<li><a href="lojaonline.html">Galeria</a></li>
+				<li><a href="artlibre.html">Sobre Nós</a></li>
+				<li><a href="membro.html">Seja Membro</a></li>
+				<li><a href="contato.html">Contato</a></li>
+            </ul>    
+            <div class="carrinho">
+                <a href="carrinho.html"><i class='bx bx-cart'></i></a>
+				<a href="login.html"><i class='bx bx-user'></i></a>
+			</div>
+		</div>
+	</header>
+
+    <section class="login">
+       
+        <div class="login-content">
+            <div class="login-form">
+                <h2>Login</h2><br>
+                <form action="" method="post">
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha"  required>
+                
+                    <button type="submit">Entrar</button>
+                </form>
+                <p><a href="">Esqueceu sua senha?</a> Recupere-a aqui.Ainda não tem uma conta? <a href="">Registre-se agora.</a></p>
+            </div>
+
+            <div class="login-location">
+                <img src="../image/login.png" alt="">
+            </div>
+         
+        </div>
+    </section>
+
+    <footer>
+                <p>Contato: contato@lojaonline.com</p>
+    </footer>
+    <script type="text/javascript" src="../java/script.js"></script>
+</body>
+</html>

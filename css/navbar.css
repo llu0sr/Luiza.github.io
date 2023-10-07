@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --bg-color: WHITE;
+    --text-color: #000000;
+    --main-color: #b993bf;
+    --second-color: #7f5d86;
+    --big-font: 4.5rem;
+    --h2-font: 3.2rem;
+    --p-font: 1rem;
+}
+header {
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    height: 100px; /* Altura desejada */
+    top: 0;
+    right: 0;
+    background-color: var(--bg-color);
+    font-family: 'Poppins', sans-serif;
+}
+header.sticky{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 5px 0;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+}
+/* ids e class */
+.logo-header img{
+    width: 50px;
+    
+ }
+#header{
+    max-width: 75%;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-header{
+    display: flex;
+    list-style: none;
+}
+.navbar-header li{
+    position: relative;
+}
+.navbar-header a{
+    color: var(--text-color);
+    font-size: var(--p-font);
+    font-weight: 400;
+    padding: 10px 20px;
+}
+.navbar-header a::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: var(--main-color);
+    bottom: -5px;
+    left: 0;
+    transition: ease .50s;
+}
+.navbar-header a:hover::after{
+    width: 100%;
+}
+#navbar-icon{
+    font-size: 20px;
+    color: var(--text-color);
+    z-index: 11;
+    display: none;
+}
+.carrinho a{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--main-color);
+    color: var(--bg-color);
+    margin: 20px 30px 20px -20px;
+    text-align: right;
+}
+.carrinho a:hover{
+    transform: scale(1.2);
+    background: var(--second-color); 
+    transition: .50s;
+}
+@media(max-width: 768px){
+    #navbar-icon{
+        display: block;
+    }
+    :root{
+        --big-font: 3rem;
+        --h2-font: 0.8rem;
+        transition: .3s;
+    }
+    .navbar-header{
+        position: absolute;
+        top: -1000px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: #ccc;
+        opacity: 0.8;
+        text-align: center;
+        transition: all .50s;
+    }
+    .navbar-header a{
+        display: block;
+        padding: 0.8rem;
+    }
+    .navbar-header a:hover{
+        background: var(--main-color);
+        color: var(--bg-color);
+    }
+    .navbar-header a::after{
+        display: none;
+    }
+    .navbar-header.active{
+        top: 100%;
+    }
+
+}

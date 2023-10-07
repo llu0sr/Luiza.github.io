@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+	box-sizing: border-box;
+} 
+body {
+    background-color: #7f5d8683;
+}
+/* Estilos para a seção de contato */
+.contato {
+    padding: 35px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 110px;
+}
+.contato h1 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.contato-content {
+    background-color: #ffffff;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start; 
+    border-radius: 10px;
+}
+
+/* Estilos para o formulário de contato */
+.contato-form {
+    background-color: #b993bf;
+    padding: 40px;
+    flex: 1;
+    max-width: 500px;
+    width: 100%;
+}
+
+.contato-form h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contato-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.contato-form input[type="text"],
+.contato-form input[type="email"],
+.contato-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #b993bf;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+  
+    outline: none;
+
+}
+
+.contato-form textarea {
+    resize: vertical;
+}
+
+.contato-form button {
+    background-color: #7f5d86;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/* Estilos para a seção de localização */
+.contato-location {
+    background-color: #fff;
+    padding: 40px;
+    flex: 1;
+    max-width: 500px;
+    width: 100%;
+}
+.contato-location i{
+    padding: 12px;
+    font-size: 22px;
+}
+.contato-location h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contato-location p {
+    color: #555;
+    margin-bottom: 10px;
+}
+.rede-sociais{
+    margin-top: 50px;
+}
+.rede-sociais i{
+    color: #ffffff;
+    margin-top: 15px;
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #b993bf
+}
+.rede-sociais i:hover{
+    cursor: pointer;
+    background-color: #7f5d86;
+}
+footer {
+    background-color:  #7f5d86;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+

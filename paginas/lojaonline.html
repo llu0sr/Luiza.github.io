@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online</title>
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- boxicon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Css -->
+    <link rel="stylesheet" href="../css/lojaonline.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+</head>
+<body>
+    <header>
+		<div id="header">
+			<div class="fa-solid fa-bars" id="navbar-icon"></div>
+			<div class="logo-header">
+				<img src="../image/lu.png" alt="Logo da ArtLivre">
+			</div>
+			<ul class="navbar-header">
+				<li><a href="../index.html">ArtLivre</a></li>
+				<li><a href="lojaonline.html">Galeria</a></li>
+				<li><a href="artlibre.html">Sobre Nós</a></li>
+				<li><a href="membro.html">Seja Membro</a></li>
+				<li><a href="contato.html">Contato</a></li>
+            </ul>    
+            <div class="carrinho">
+                <a href="carrinho.html"><i class='bx bx-cart'></i></a>
+				<a href="login.html"><i class='bx bx-user'></i></a>
+			</div>
+		</div>
+	</header>
+	
+	<div class="barra">
+		<div class="categories">
+			<ul>
+				<li><a href="#">Tipo de Obra <i class='bx bx-chevron-down'></i></a>
+					<div class="sub-menu">
+						<ul>
+							<li><a href="#">PINTURAS</a></li>
+							<li><a href="#">ESCULTURAS</a></li>
+							<li><a href="#">GRAVURAS</a></li>
+							<li><a href="#">FOTOGRAFIA</a></li>
+							<li><a href="#">DESENHOS</a></li>
+							<li><a href="#">LIVROS</a></li>
+							<li><a href="#">TAPEÇARIA</a></li>
+						</ul>
+					</div>
+				</li>
+				<!-- Categoria "Tamanho" -->
+				<li><a href="#">Tamanho <i class='bx bx-chevron-down'></i></a>
+					<div class="sub-menu">
+						<ul>
+							<li><a href="#">PEQUENO (ATÉ 50CM)</a></li>
+							<li><a href="#">MÉDIO (ENTRE 50 E 100CM)</a></li>
+							<li><a href="#">GRANDE (MAIS DE 100CM)</a></li>
+						</ul>
+					</div>
+				</li>
+				<!-- Categoria "Orientação" -->
+				<li><a href="#">Orientação <i class='bx bx-chevron-down'></i></a>
+					<div class="sub-menu">
+						<ul>
+							<li><a href="#">VERTICAL</a></li>
+							<li><a href="#">HORIZONTAL</a></li>
+							<li><a href="#">QUADRADO</a></li>
+						</ul>
+					</div>
+				</li>
+				<!-- Categoria "Cor predominante" -->
+				<li><a href="#">Cor predominante <i class='bx bx-chevron-down'></i></a>
+					<div class="sub-menu">
+						<ul>
+							<li><a href="#">Vermelho</a></li>
+							<li><a href="#">Azul</a></li>
+							<li><a href="#">Verde</a></li>
+							<li><a href="#">Amarelo</a></li>
+							<li><a href="#">Roxo</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="busca">
+			<form>
+				<input type="text" placeholder="Pesquisar...">
+				<button type="submit">Buscar</button>
+			</form>
+		</div>
+	</div>
+	
+	<div class="banner">
+		<img src="../image/capa.png" alt="Banner">
+	</div>
+
+	<section class="our-works">
+		<h2>NOSSAS OBRAS</h2>
+		<p>A arte livre é uma expressão da alma, uma forma de comunicação que transcende as barreiras da linguagem e nos conecta profundamente com o mundo que nos rodeia.</p>
+	</section>
+
+    <main>
+        <div class="product-grid">
+            <div class="product">
+				<a href="produto.html?id=1">
+				<img src="../image/1.jpg" alt="Produto 1">
+			</a>
+		        <div class="card-info">
+                	<p class="text-title">Harmonia de Cores</p>
+		        </div>
+		        <div class="card-footer">
+                	<p>Preço: R$ 250,00</p>
+                	<button class="add-to-cart">Adicionar ao Carrinho</button>
+		        </div>
+            </div>
+            <div class="product">
+				<a href="produto.html?id=2">
+					<img src="../image/2.jpg" alt="Produto 2">
+				</a>
+		        <div class="card-info">
+                	<p class="text-title">Vestígios do Tempo</p>
+		        </div>
+		        <div class="card-footer">
+                	<p>Preço: R$ 450,00</p>
+               		<button class="add-to-cart">Adicionar ao Carrinho</button>
+		        </div>
+            </div>
+            <div class="product">
+                <img src="../image/3.jpg" alt="Produto 3">
+		        <div class="card-info">
+                	<p class="text-title">Poema da Simplicidade</p>
+		        </div>
+ 		        <div class="card-footer">
+                	<p>Preço: R$ 655,00</p>
+               		<button class="add-to-cart">Adicionar ao Carrinho</button>
+		        </div>
+            </div>
+            <div class="product">
+                <img src="../image/4.jpg" alt="Produto 1">
+		        <div class="card-info">
+                	<p class="text-title">Sinfonia de Cores Abstratas</p>
+		        </div>
+		        <div class="card-footer">
+                	<p>Preço: R$ 800,00</p>
+                	<button class="add-to-cart">Adicionar ao Carrinho</button>
+		        </div>
+            </div>
+            <div class="product">
+                <img src="../image/5.jpg" alt="Produto 2">
+		        <div class="card-info">
+                	<p class="text-title">Alma Abraçada</p>
+		        </div>
+		        <div class="card-footer">
+                	<p>Preço: R$ 3.000,00</p>
+               		<button class="add-to-cart">Adicionar ao Carrinho</button>
+		        </div>
+            </div>
+            <div class="product">
+                <img src="../image/6.jpg" alt="Produto 3">
+		        <div class="card-info">
+                	<p class="text-title">A Face do Tempo</p>
+		        </div>
+ 		        <div class="card-footer">
+                	<p>Preço: R$ 415,00</p>
+               		<button class="add-to-cart">Adicionar ao Carrinho</button>
+		        </div>
+            </div>   
+            <div class="product">
+                <img src="../image/7.jpg" alt="Produto 1">
+		        <div class="card-info">
+                	<p class="text-title">Resplandecer da Alma</p>
+
+		        </div>
+		        <div class="card-footer">
+                	<p>Preço: R$ 20.000,00</p>
+                	<button class="add-to-cart">Adicionar ao Carrinho</button>
+		        </div>
+            </div>
+            <div class="product">
+                <img src="../image/8.jpg" alt="Produto 2">
+		        <div class="card-info">
+                	<p class="text-title">Mistério na Lona</p>
+		        </div>
+		        <div class="card-footer">
+                	<p>Preço: R$ 4.000,00</p>
+               		<button class="add-to-cart">Adicionar ao Carrinho</button>
+		        </div>
+            </div>
+            <div class="product">
+                <img src="../image/9.jpg" alt="Produto 3">
+		        <div class="card-info">
+                	<p class="text-title">Primavera na Telae</p>
+		        </div>
+ 		        <div class="card-footer">
+                	<p>Preço: R$ 2.055,00</p>
+               		<button class="add-to-cart">Adicionar ao Carrinho</button>
+		        </div>
+            </div>
+            <div class="product">
+                <img src="../image/10.jpg" alt="Produto 1">
+		        <div class="card-info">
+                	<p class="text-title">Caleidoscópio da Emoção</p>
+		        </div>
+		        <div class="card-footer">
+                	<p>Preço: R$ 1.500,00</p>
+                	<button class="add-to-cart">Adicionar ao Carrinho</button>
+		        </div>
+            </div>
+            <div class="product">
+                <img src="../image/11.jpg" alt="Produto 2">
+		        <div class="card-info">
+                	<p class="text-title">Beleza à Beira da Água</p>
+		        </div>
+		        <div class="card-footer">
+                	<p>Preço: R$ 45,00</p>
+               		<button class="add-to-cart">Adicionar ao Carrinho</button>
+		        </div>
+            </div>
+            <div class="product">
+                <img src="../image/12.jpg" alt="Produto 3">
+		        <div class="card-info">
+                	<p class="text-title">...Legally Now</p>
+		        </div>
+ 		        <div class="card-footer">
+                	<p>Preço: R$ 45,00</p>
+               		<button class="add-to-cart">Adicionar ao Carrinho</button>
+		        </div>
+            </div>     
+        </div>
+    </main>
+	<section class="upcoming-events">
+        <h2>Eventos e Exibições Futuras</h2>
+        <p>Fique por dentro dos próximos eventos e exposições de arte que a ArteLibre está organizando ou participando. É uma oportunidade emocionante para os artistas se envolverem e para os amantes da arte explorarem novas criações.</p>
+    
+        <div class="event">
+            <h3>Exposição de Arte Moderna</h3>
+            <p><strong>Data:</strong> 15 de Novembro de 2023</p>
+            <p><strong>Descrição:</strong> Nossa próxima exposição apresentará obras de artistas contemporâneos. Se você deseja participar, entre em contato conosco para saber mais.</p>
+        </div>
+    
+        <div class="event">
+            <h3>Concurso de Fotografia</h3>
+            <p><strong>Data de Inscrição:</strong> Até 30 de Setembro de 2023</p>
+            <p><strong>Descrição:</strong> Estamos organizando um concurso de fotografia com o tema "A Beleza da Natureza". Envie suas melhores fotos para concorrer.</p>
+        </div>
+    
+        <!-- Adicione mais eventos conforme necessário -->
+    
+        <p>Mantenha-se atualizado sobre nossos eventos e oportunidades artísticas visitando regularmente nossa página e seguindo nossas redes sociais.</p>
+    </section>
+    <section class="social-newsletter">
+        <div class="social">
+            <p>Siga a gente:</p>
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-pinterest'></i></a>
+        </div>
+        <div class="newsletter">
+            <p>Assine a nossa newsletter e seja o primeiro a saber sobre promoções exclusivas e novidades.</p>
+            <form>
+                <input type="email" placeholder="Seu e-mail">
+                <button type="submit">Assinar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="licenses">
+                <p>&copy; 2023 Loja Online. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- js -->
+	<script type="text/javascript" src="../java/script.js"></script>
+
+</body>
+</html>
